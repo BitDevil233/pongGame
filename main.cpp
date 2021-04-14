@@ -13,9 +13,10 @@ int main()
 		Controller::update(gamedata);
 
 		gotoxy(0, 0);
-		hideCursor();
+		hideCursor();	//Òş²Ø¹â±ê
 
 		Controller::draw(gamedata);
+		//²âÊÔGithub
 	}
 
 }
